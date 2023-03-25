@@ -1,0 +1,66 @@
+body {
+  background-color: #d5e1ef;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.Component {
+  position: relative;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.qrc-image {
+  display: flex;
+  position: absolute;
+  height: 288px;
+  width: 288px;
+  top: 18px;
+  left: 16px;
+  border-radius: 10px;
+}
+
+.qrc-upper-text {
+  position: absolute;
+  width: 300px;
+  height: 54px;
+  top: 328px;
+
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.004em;
+  color: #2e394d;
+}
+
+.qrc-lower-text {
+  display: flex;
+  position: absolute;
+  width: 248px;
+  height: 55px;
+  left: 36px;
+  top: 401px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #8e8e8e;
+}
+
+.line-adjustement {
+  display: inline;
+  letter-spacing: 0.035em;
+}
